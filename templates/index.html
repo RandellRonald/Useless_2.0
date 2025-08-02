@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+
+{% block title %}Stellar Deed{% endblock %}
+
+{% block content %}
+<section id="home" class="home-section">
+<div class="h-screen grid grid-cols-2 align-middle justify-center  text-center ">
+    <div class="ml-9">
+        <h1 class="text-4xl text-white font-bold text-center pt-20 mt-44">Welcome to Stellar Deed</h1> 
+        <p class="text-white mt-2 justify-self-auto">Own the Universe - Authentic meteorites, asteroid fragments, and comet specimens. Certified space rocks from across the solar system delivered to your door.</p>
+        <button type="button" class="rounded-full text-white p-3 mt-4 bg-cyan-600 cursor-pointer hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 ">Shop Now</button>
+    </div>
+    <div class="size-70">
+  <img src="../static/assets/planet.png" alt="Planet">
+    </div>
+</div>
+</section>
+<section id="about" class="about-section">
+<div class="h-screen grid grid-cols-2 align-middle justify-center text-center">
+    <div class="w-96 h-96 mt-44 ml-40">
+        <img src="../static/assets/meteor.png" alt="Meteorite" class=" size-96 ">
+    </div>
+    <div class="ml-9">
+        <h1 class="text-4xl text-white font-bold text-center pt-20 mt-44">About Stellar Deed</h1> 
+        <p class="text-white mt-2 justify-self-auto">Stellar Deed is your gateway to the cosmos, offering a curated collection of authentic meteorites, asteroid fragments, and comet specimens. Each piece is certified and sourced from reputable suppliers, ensuring you receive genuine space rocks that tell a story of the universe.</p>
+        <button type="button" class="rounded-full text-white p-3 mt-4 bg-cyan-600 cursor-pointer hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 ">Learn More</button>
+    </div>
+</section>
+
+<section id="marketplace" class="marketplace-section">
+<div class="h-screen align-middle justify-center text-center">
+    <div class="ml-9">
+        <h1 class="text-4xl text-white font-bold text-center pt-20 mt-4">Marketplace</h1> 
+        <p class="text-white mt-2 justify-self-auto">Explore our diverse collection of meteorites, asteroid fragments, and comet specimens. Each item is accompanied by detailed descriptions and certification information, ensuring transparency and authenticity.</p>
+        <button type="button" class="rounded-full text-white p-3 mt-4 bg-cyan-500 cursor-pointer hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 ">Browse Marketplace</button>
+    </div>
+    <div class="grid grid-cols-4 gap-4 mt-9 ml-20 ">
+    <div class="bg-rose-200 w-96 h-fit p-5 flex flex-col items-center shadow-lg rounded-lg">
+        <img src="../static/assets/asteroids.svg" alt="Asteroid" class="w-56 h-44 mb-4 rounded-lg">
+        <h1 class="text-2xl font-bold" >Asteroids</h1>
+        <p class="text-gray-900">Asteroid #A-47X — “The Wandering Jewel"</p>
+        <p class="text-gray-700">Forged in the cold heart of the cosmos and polished by a billion years of galactic drift, Asteroid A-47X is the crown jewel of the Kuiper Belt. </p>
+        <button type="button" class="rounded-full text-white p-3 mt-4 bg-cyan-500 cursor-pointer hover:bg-pink-600 active:bg-pink-700 focus:outline-none focus:ring focus:ring-violet-300 ">Shop more </button>
+     </div>    
+     <div class="bg-rose-200 w-96 h-fit p-5 flex flex-col items-center shadow-lg rounded-lg">
+        <img src="../static/assets/jupiter.jpg" alt="Asteroid" class="w-56 h-44 mb-4 rounded-lg">
+        <h1 class="text-2xl font-bold" >Planets</h1>
+        <p class="text-gray-900">Jupiter — “The Giant of the Gods”</p>
+        <p class="text-gray-700">Behold Jupiter, the undisputed heavyweight champion of the solar system — a swirling colossus of gas, glory, and gravitational swagger.</p>
+        <button type="button" class="rounded-full text-white p-3 mt-4 bg-cyan-500 cursor-pointer hover:bg-pink-600 active:bg-pink-700 focus:outline-none focus:ring focus:ring-violet-300 ">Shop more </button>
+     </div> 
+     <div class="bg-rose-200 w-96 h-fit p-5 flex flex-col items-center shadow-lg rounded-lg">
+        <img src="../static/assets/moon.jpg" alt="Asteroid" class="w-56 h-44 mb-4 rounded-lg">
+        <h1 class="text-2xl font-bold" >Satelites</h1>
+        <p class="text-gray-900">Lunar Collection — “Jewels of the Celestial Court”</p>
+        <p class="text-gray-700">Orbiting their majestic planets like loyal companions, the moons of the galaxy are the unsung treasures of the cosmos.</p>
+        <button type="button" class="rounded-full text-white p-3 mt-4 bg-cyan-500 cursor-pointer hover:bg-pink-600 active:bg-pink-700 focus:outline-none focus:ring focus:ring-violet-300 ">Shop more </button>
+     </div> 
+     <div class="bg-rose-200  w-96 h-fit p-5 flex flex-col items-center shadow-lg rounded-lg">
+        <img src="../static/assets/meteors.jpg" alt="Asteroid" class="w-56 h-44 mb-4 rounded-lg">
+        <h1 class="text-2xl font-bold" >Meteors</h1>
+        <p class="text-gray-900">Meteor Collection — “Skyfire Relics of the Cosmos”</p>
+        <p class="text-gray-700">Introducing our limited-edition Meteors — nature’s most dramatic fireworks, forged in the blacksmith's forge of space. </p>
+        <button type="button" class="rounded-full text-white p-3 mt-4 bg-cyan-500 cursor-pointer hover:bg-pink-600 active:bg-pink-700 focus:outline-none focus:ring focus:ring-violet-300 ">Shop more </button>
+     </div> 
+</div>
+</div>
+</section>
+ <footer class="bg-gray-800 text-white text-center p-4 mt-10">
+        <p>&copy; 2023 Stellar Deed. All rights reserved.</p>
+        <p>Follow us on 
+            <a href="#" class="text-blue-400 hover:underline">Twitter</a>, 
+            <a href="#" class="text-blue-400 hover:underline">Facebook</a>, 
+            <a href="#" class="text-blue-400 hover:underline">Instagram</a>
+        </p>
+    </footer>
+{% endblock %}
