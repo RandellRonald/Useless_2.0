@@ -5,13 +5,12 @@
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [MakerSpace]
 
 
 ### Team Members
-- Team Lead: [Shreya Shajalan] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: [Shreya Shajalan] - [Albertain Institute of Science and Technology]
+- Member 2: [Randell Ronald] - [Albertain Institute of Science and Technology]
 
 ### Project Description
 [2-3 lines about what your project does]
