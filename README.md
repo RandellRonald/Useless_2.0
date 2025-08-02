@@ -13,7 +13,7 @@
 - Member 2: [Randell Ronald] - [Albertain Institute of Science and Technology]
 
 ### Project Description
-StellarDeed aims to revolutionize the concept of land ownership by enabling individuals to register land parcels on various planets. This futuristic initiative merges technology and space exploration to create a comprehensive and legally recognized planetary land registry
+SpaceOnSale aims to revolutionize the concept of land ownership by enabling individuals to register land parcels on various planets. This futuristic initiative merges technology and space exploration to create a comprehensive and legally recognized planetary land registry
 
 ### The Problem (that doesn't exist)
 Want to buy land in space???
